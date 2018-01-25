@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.talaat_nwegaa.iqtest.MainActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:text="Question 1"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="what is the value of angle (X)?"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/red"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/angle" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Q1_ch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_1"
+                android:text="125"
+                android:textColor="@color/redForButton"/>
+
+            <RadioButton
+                android:id="@+id/Q1_ch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_1"
+                android:text="55"
+                android:textColor="@color/redForButton"/>
+
+            <RadioButton
+                android:id="@+id/Q1_ch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_1"
+                android:text="35"
+                android:textColor="@color/redForButton"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Question 2"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the average of three numbers is 29.the average of two of these numbers is 38.what is the third number ?"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Q2_ch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_2"
+                android:text="8"
+                android:textColor="@color/redForButton"/>
+
+            <RadioButton
+                android:id="@+id/Q2_ch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_2"
+                android:text="12"
+                android:textColor="@color/redForButton"/>
+
+            <RadioButton
+                android:id="@+id/Q2_ch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_2"
+                android:text="9"
+                android:textColor="@color/redForButton"/>
+            <RadioButton
+                android:id="@+id/Q2_ch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_2"
+                android:text="11"
+                android:textColor="@color/redForButton"/>
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Question 3"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which is the odd one out?"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/red"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/odd" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Q3_ch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_3"
+                android:text="A"
+                android:textColor="@color/redForButton"/>
+
+            <RadioButton
+                android:id="@+id/Q3_ch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_3"
+                android:text="B"
+                android:textColor="@color/redForButton"/>
+
+            <RadioButton
+                android:id="@+id/Q3_ch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_3"
+                android:text="C"
+                android:textColor="@color/redForButton"/>
+            <RadioButton
+                android:id="@+id/Q3_ch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_3"
+                android:text="D"
+                android:textColor="@color/redForButton"/>
+            <RadioButton
+                android:id="@+id/Q3_ch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ques_3"
+                android:text="E"
+                android:textColor="@color/redForButton"/>
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Question 4"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which three of the four pieces below can be fitted together to form a perfect square?"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/square"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/Q4_ch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:onClick="ques_4"
+                android:textColor="@color/redForButton"/>
+
+            <CheckBox
+                android:id="@+id/Q4_ch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:onClick="ques_4"
+                android:textColor="@color/redForButton"/>
+
+            <CheckBox
+                android:id="@+id/Q4_ch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:onClick="ques_4"
+                android:textColor="@color/redForButton"/>
+
+            <CheckBox
+                android:id="@+id/Q4_ch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:onClick="ques_4"
+                android:textColor="@color/redForButton"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Question 5"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="if 4 apples and 6 bananas cost $1.56 and 9 apples and 7 bananas cost $2.60,what is the cost of one apple and one banana?"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"/>
+        <EditText
+            android:id="@+id/result_Q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="your result here"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Question 6"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What number should replace the question mark?"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quistionmark"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/result_Q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="your result here"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Question 7"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is the value of -12 + -15?"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Q7_ch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ques_7"
+            android:text="3"
+            android:textColor="@color/redForButton"/>
+
+        <RadioButton
+            android:id="@+id/Q7_ch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ques_7"
+            android:text="-27"
+            android:textColor="@color/redForButton"/>
+
+        <RadioButton
+            android:id="@+id/Q7_ch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ques_7"
+            android:text="-3"
+            android:textColor="@color/redForButton"/>
+        <RadioButton
+            android:id="@+id/Q7_ch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ques_7"
+            android:text="27"
+            android:textColor="@color/redForButton"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Question 8"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 , 16 , 49 , ? , 445"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What number should replace the question mark?"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/red"/>
+        <EditText
+            android:id="@+id/result_Q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="your result here"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/your_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="your result"
+            android:textColor="@color/greenForResult"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:onClick="submit"
+            android:text="reusult"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/green"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="reset"
+            android:text="Reset"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/green"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/correctAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="show the correct answer"
+            android:onClick="correctAnswerSubmit"
+            android:layout_marginTop="140dp"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:background="@color/greenResultButton"/>
+        <TextView
+            android:id="@+id/text_Viewing_Correct_Answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
